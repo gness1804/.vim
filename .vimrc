@@ -1,29 +1,16 @@
 execute pathogen#infect()
 syntax on
-filetype plugin indent on 
 
 colorscheme deep-space
 
 set number
 
 set clipboard=unnamed
-set backspace=indent,eol,start
-
-set softtabstop=2
-set shiftwidth=2
-set expandtab
 
 set nocompatible
 set noswapfile
-set smartindent
-set autoindent
-let NERDTreeShowHidden=1
 
-autocmd vimenter * NERDTree
-set pastetoggle=<F2>
 setlocal spell spelllang=en_us
-
-nnoremap <tab> <C-w>w
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}

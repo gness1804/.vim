@@ -45,3 +45,8 @@ highlight link SyntasticErrorSign SignColumn
 highlight link SyntasticWarningSign SignColumn
 highlight link SyntasticStyleErrorSign SignColumn
 highlight link SyntasticStyleWarningSign SignColumn
+
+highlight DiffAdd    cterm=NONE ctermfg=15 ctermbg=22
+highlight DiffDelete cterm=NONE ctermfg=15 ctermbg=1
+highlight DiffChange cterm=NONE ctermfg=15 ctermbg=19
+highlight DiffText   cterm=NONE ctermfg=0 ctermbg=155

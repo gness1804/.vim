@@ -10,8 +10,6 @@ set clipboard=unnamed
 set nocompatible
 set noswapfile
 
-setlocal spell spelllang=en_us
-
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%F

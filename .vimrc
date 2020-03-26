@@ -1,7 +1,7 @@
 execute pathogen#infect()
 syntax on
 
-colorscheme deep-space
+colorscheme molokai
 
 set number
 
